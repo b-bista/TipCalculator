@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Tip Calculator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="In this website you can calculate tips." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+<body>
+
+  <div id="page-wrapper">
+
+    <h1>Welcome to the tip calculator</h1>
+    <div id="calc">
+
+      <div id="calc-header">
+        <h2>Tip Calculator</h2>
+      </div>
+
+      <div id="calc-body">
+        <form name="tipForm" method="post">
+          Order Subtotal ($):<br>
+          <input type="text" name="orderSubtotal" value="0.00">
+          <br>
+          Splitting with how many?:<br>
+          <input type="text" name="nSplit" value="0">
+          <br>
+          Tip Percent:<br>
+          <input type="radio" name="tipRate" value=".15" checked> 15%
+          <input type="radio" name="tipRate" value=".18"> 18% (Recommended)
+          <input type="radio" name="tipRate" value=".20"> 20%<br>
+          <button onClick="calcResult()">Calculate</button>
+
+        </form>
+        <p>Results:</p>
+        <p id="result"></p>
+      </div>
+
+    </div>
+
+  </div>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,40 @@
+body{
+  background-color: white;
+	padding:0px 200px 10px 200px;
+	border:0;
+  font-family: arial;
+}
+p{
+  text-align: center;
+}
+input {
+  margin-bottom: 10px
+}
+form{
+  text-align: center;
+  font-family: arial;
+}
+h1, h2, h3{
+  font-family: arial;
+  text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+#page-wrapper{
+  padding: 60px 0px 100px 0px;
+  background-color: lightgray;
+}
+#calc{
+  padding: 0px 0px 150px 0px;
+  margin: 10px 550px 0px 550px;
+  background-color: brown;
+  color: white;
+}
+#calc-body{
+}
+#calc-header{
+  background-color: gray;
+  color: white;
+}
+
