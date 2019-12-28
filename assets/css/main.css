@@ -29,6 +29,7 @@ h1{
   padding: 0px 0px 150px 0px;
   margin: 10px 550px 0px 550px;
   background-color: brown;
+  text-align: center;
   color: white;
 }
 #calc-body{
@@ -37,4 +38,6 @@ h1{
   background-color: gray;
   color: white;
 }
-
+#results-box{
+  text-align: left;
+}
